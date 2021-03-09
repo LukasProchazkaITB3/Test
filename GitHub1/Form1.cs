@@ -32,5 +32,13 @@ namespace GitHub1
             double vysledek = a * b;
             label2.Text = "Výsledek je " + vysledek;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            double a = double.Parse(textBox1.Text);
+            double b = double.Parse(textBox2.Text);
+            double vysledek = a - b;
+            label3.Text = "Výsledek je " + vysledek;
+        }
     }
 }
